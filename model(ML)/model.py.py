@@ -65,7 +65,8 @@ print('roc_auc_score:',y_test,y_pred_prob)
 #cross_val_score 
 
 cross_val_scores = cross_val_score(model,x,y,cv=5)
-print('cross_val_score:',cross_val_score)
+print('cross_val_score:',cross_val_scores)
+print('cross_val_mean',cross_val_scores.mean())
 
 #saving
 
