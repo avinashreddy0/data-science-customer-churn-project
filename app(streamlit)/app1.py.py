@@ -7,7 +7,7 @@ import streamlit as st
 #loading data set
 
 model = joblib.load(
-    r'C:\Users\indur\OneDrive\Desktop\depolyment projects\zomato_project\customer_churn.pkl''
+    r'C:\Users\indur\OneDrive\Desktop\depolyment projects\zomato_project\customer_churn.pkl'
 )
 
 gender_encoder = joblib.load('gender.pkl')
