@@ -7,7 +7,7 @@ try:
     print('loaded')
 
     user = 'root'
-    password = quote_plus('induri@05')
+    password = quote_plus('ADD YOUR PASSWORD')
     host = 'localhost'
     database = 'churn'
 
