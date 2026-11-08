@@ -14,7 +14,7 @@ try:
     engine = create_engine(f'mysql+pymysql://{user}:{password}@{host}/{database}')
 
     df.to_sql('clean',con=engine,if_exists='replace')
-    print('sucessfully we loaded to data dase')
+    print('sucessfully we loaded to data base')
 except:
     print('error??????????????????????????????:')
 finally:
